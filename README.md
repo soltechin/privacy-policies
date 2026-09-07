@@ -1,1 +1,1 @@
-# privacy-policies
+soltechin important pages
