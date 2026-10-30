@@ -29,6 +29,16 @@
         a:hover { text-decoration: underline; }
         ul { padding-left: 20px; }
         .lang-switch { margin-bottom: 20px; font-weight: bold; }
+        .badge {
+            display: inline-block;
+            background-color: #e8f5e9;
+            color: #2e7d32;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
@@ -41,35 +51,45 @@
     <!-- TÜRKÇE BÖLÜM -->
     <section id="tr">
         <h1>Gizlilik Politikası</h1>
-        <p><strong>Son Güncelleme:</strong> 2 Eylül 2026</p>
-        <p><strong>Tespih &amp; Tasbih: Zikir &amp; Dhikr</strong> ("Uygulama") olarak, kullanıcılarımızın gizliliğine önem veriyoruz. Bu metin, hangi verileri nasıl topladığımızı ve koruduğumuzu açıklamaktadır.</p>
+        <p><strong>Son Güncelleme:</strong> 30 Ekim 2026</p>
+        <p><strong>Tespih &amp; Tasbih: Zikir &amp; Dhikr</strong> ("Uygulama") olarak, kullanıcılarımızın gizliliğine ve kişisel verilerinin korunmasına büyük önem veriyoruz. Bu gizlilik politikası, uygulamamızı kullandığınızda verilerinizin nasıl işlendiğini, saklandığını ve korunduğunu Apple App Store ve Google Play Store gereksinimlerine uygun olarak açıklamaktadır.</p>
 
         <h2>1. Toplanan Bilgiler ve Kullanım Amaçları</h2>
 
-        <h3>a. Konum Bilgileri</h3>
-        <p>Uygulamamızdaki "Kıble Bulucu", "Cami Bulucu" ve "Namaz Vakitleri" özelliklerinin çalışabilmesi için cihazınızın yaklaşık veya kesin konum verilerine erişim izni istenir. Bu veriler sadece anlık hesaplama yapmak için kullanılır, sunucularımıza kaydedilmez veya üçüncü taraflarla paylaşılmaz.</p>
+        <h3>a. Konum Bilgileri (Location Data)</h3>
+        <p>Uygulamamızdaki "Kıble Bulucu", "Cami Bulucu" ve "Namaz Vakitleri" özelliklerinin doğru çalışabilmesi için cihazınızın yaklaşık veya kesin konum verilerine erişim izni istenir. Bu konum verileri yalnızca anlık hesaplamalar yapmak için kullanılır; sunucularımıza kaydedilmez, profil oluşturulmaz ve üçüncü taraflara pazarlama amacıyla satılmaz.</p>
 
-        <h3>b. Kamera ve Medya Erişimi</h3>
-        <p>"Fotoğraflı Özel Boncuk" özelliği için kamera kullanımına veya galeriye erişim sağlanır. Yüklediğiniz fotoğraflar tamamen yereldir, sadece cihazınızda saklanır ve dışarıya aktarılmaz. "Rozet Paylaşım" özelliğiyle oluşturulan görseller, izninizle cihazınıza kaydedilir.</p>
+        <h3>b. Kamera ve Fotoğraf / Medya Erişimi</h3>
+        <p>"Fotoğraflı Özel Boncuk" özelliği için kamera kullanımına veya fotoğraf galerisine erişim izni gerekebilir. Seçtiğiniz veya çektiğiniz fotoğraflar tamamen cihazınızın yerel hafızasında saklanır; harici hiçbir sunucuya yüklenmez veya aktarılmaz. "Rozet Paylaşım" özelliği ile oluşturulan görseller yalnızca sizin onayınızla cihazınıza kaydedilir.</p>
 
         <h3>c. Reklamlar (Google AdMob)</h3>
-        <p>Uygulama, reklam göstermek için Google AdMob SDK'sını kullanır. Google, size ilgi alanınıza dayalı reklamlar sunmak için cihaz kimliği (AD_ID) gibi verileri toplayabilir.</p>
+        <p>Uygulamamızın ücretsiz sunulabilmesi amacıyla Google AdMob SDK'sı üzerinden reklamlar gösterilmektedir. Google AdMob, size uygun ve kişiselleştirilmiş ya da bağlamsal reklamlar sunabilmek amacıyla cihaz tanımlayıcılarını kullanabilir:</p>
         <ul>
-            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Gizlilik Politikası</a></li>
+            <li><strong>Android:</strong> Google Advertising ID (AD_ID)</li>
+            <li><strong>iOS:</strong> IDFA (Identifier for Advertisers - İzin verildiğinde) veya SKAdNetwork</li>
+            <li>Daha fazla bilgi için: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Gizlilik Politikası</a></li>
         </ul>
 
-        <h3>d. Ödemeler (Google Play Billing)</h3>
-        <p>Uygulama içi satın alımlar Google Play Store üzerinden gerçekleştirilir. Ödeme bilgileriniz (kredi kartı vb.) doğrudan Google tarafından işlenir; bizim tarafımızdan bu bilgilere erişilemez veya saklanamaz.</p>
+        <h3>d. Uygulama İçi Satın Alımlar (In-App Purchases)</h3>
+        <p>Uygulama içi satın alımlar (örneğin reklam kaldırma veya premium özellikler), cihazınıza bağlı olarak <strong>Apple App Store (Apple StoreKit)</strong> veya <strong>Google Play Store (Google Play Billing)</strong> altyapısı üzerinden güvenli şekilde gerçekleştirilir. Kredi kartı ve ödeme bilgileriniz doğrudan Apple veya Google tarafından işlenir; tarafımızca herhangi bir finansal veriye erişilemez veya bu veriler saklanamaz.</p>
 
-        <h2>2. Veri Saklama</h2>
-        <p>Zikir istatistikleriniz, günlük serileriniz ve ayarlarınız tamamen cihazınızdaki yerel depolama alanında tutulur. Uygulama silindiğinde, yerel olarak saklanan bu veriler de silinebilir.</p>
+        <h2>2. Veri Saklama ve Veri Silme (Data Retention &amp; Deletion)</h2>
+        <p>Zikir istatistikleriniz, sayaçlarınız, günlük serileriniz ve ayarlarınız tamamen cihazınızın yerel depolama alanında tutulmaktadır. Harici bir sunucu üzerinde kullanıcı kaydı veya hesabı oluşturulmaz.</p>
+        <p><strong>Verilerinizi Nasıl Silebilirsiniz?</strong></p>
+        <ul>
+            <li>Cihazınızın ayarlarından uygulama verilerini temizleyerek veya uygulamayı cihazınızdan kaldırarak yerel olarak saklanan tüm verileri kalıcı olarak anında silebilirsiniz.</li>
+            <li>Reklam kimliği verilerini sıfırlamak veya takip izinlerini yönetmek için iOS'ta <em>Ayarlar &gt; Gizlilik ve Güvenlik &gt; Takip</em>, Android'de ise <em>Ayarlar &gt; Gizlilik &gt; Reklamlar</em> menülerini kullanabilirsiniz.</li>
+        </ul>
 
-        <h2>3. Çocukların Gizliliği</h2>
-        <p>Uygulamamız 13 yaş altındaki çocuklara yönelik kişisel verileri bilerek toplamaz.</p>
+        <h2>3. Çocukların Gizliliği (Children's Privacy)</h2>
+        <p>Uygulamamız 13 yaş altındaki çocuklara (veya yargı bölgesine göre 16 yaş altı) yönelik kişisel verileri bilerek ve isteyerek toplamaz. Eğer bir çocuğun bize kişisel bilgi sağladığını fark ederseniz, lütfen bizimle iletişime geçiniz; ilgili veriler ivedilikle silinecektir.</p>
 
-        <h2>4. İletişim</h2>
-        <p>Gizlilik politikamız hakkında sorularınız için bizimle iletişime geçebilirsiniz:</p>
-        <p><strong>E-posta:</strong> <a href="mailto:dionysossp@gmail.com">dionysossp@gmail.com</a></p>
+        <h2>4. Güvenlik</h2>
+        <p>Kullanıcı verilerinin güvenliği bizim için esastır. Tüm harici ağ iletişimleri (reklam ve mağaza servisleri) endüstri standardı HTTPS/SSL şifrelemesi ile korunmaktadır.</p>
+
+        <h2>5. İletişim</h2>
+        <p>Gizlilik politikamız veya veri uygulamalarımız hakkında sorularınız ve talepleriniz için bizimle iletişime geçebilirsiniz:</p>
+        <p><strong>Geliştirici / Destek E-posta:</strong> <a href="mailto:dionysossp@gmail.com">dionysossp@gmail.com</a></p>
     </section>
 
     <hr>
@@ -77,35 +97,45 @@
     <!-- ENGLISH SECTION -->
     <section id="en">
         <h1>Privacy Policy</h1>
-        <p><strong>Last Updated:</strong> September 2, 2026</p>
-        <p><strong>Tespih &amp; Tasbih: Zikir &amp; Dhikr</strong> ("the App") is committed to protecting your privacy. This policy outlines how we handle your data.</p>
+        <p><strong>Last Updated:</strong> October 30, 2026</p>
+        <p><strong>Tespih &amp; Tasbih: Zikir &amp; Dhikr</strong> ("the App") is committed to protecting your privacy and personal data. This Privacy Policy explains how your information is handled, stored, and protected in full compliance with Apple App Store and Google Play Store requirements.</p>
 
         <h2>1. Information Collection and Use</h2>
 
         <h3>a. Location Data</h3>
-        <p>The App requests access to your location to provide "Qibla Finder", "Mosque Finder", and "Prayer Times" features. This data is used solely for real-time calculations on your device and is not stored on our servers or shared with third parties.</p>
+        <p>The App requests permission to access your approximate or precise location to provide features such as "Qibla Finder", "Mosque Finder", and accurate "Prayer Times". This location data is used solely for real-time calculations on your device; it is not stored on remote servers, used for profiling, or sold to third parties.</p>
 
-        <h3>b. Camera and Media Access</h3>
-        <p>Access to the camera or gallery is required for the "Custom Photo Bead" feature. Any photos you upload are stored locally on your device and are not uploaded to any server. Images generated for sharing are saved to your local storage only upon your request.</p>
+        <h3>b. Camera and Media / Photo Access</h3>
+        <p>Camera or photo library access may be requested for the "Custom Photo Bead" feature. Any photos you select or take are processed and stored strictly on your local device. No images are uploaded to external servers. Images created with the badge/share feature are saved to your device only with your explicit consent.</p>
 
         <h3>c. Advertising (Google AdMob)</h3>
-        <p>We use Google AdMob to display advertisements. Google may collect device identifiers (AD_ID) to serve personalized ads.</p>
+        <p>We use Google AdMob to display advertisements to keep the App free. Google may collect and process device identifiers to serve personalized or contextual ads:</p>
         <ul>
-            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+            <li><strong>Android:</strong> Google Advertising ID (AD_ID)</li>
+            <li><strong>iOS:</strong> IDFA (Identifier for Advertisers - where permitted via App Tracking Transparency) or SKAdNetwork</li>
+            <li>For more information, please visit: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
         </ul>
 
-        <h3>d. In-App Purchases (Google Play Billing)</h3>
-        <p>Transactions are handled securely by the Google Play Store. We do not collect or store your financial or credit card information.</p>
+        <h3>d. In-App Purchases</h3>
+        <p>In-app purchases (such as removing advertisements or unlocking premium features) are processed securely through <strong>Apple App Store (Apple StoreKit)</strong> or <strong>Google Play Store (Google Play Billing)</strong> depending on your platform. We do not collect, process, or store any of your financial, billing, or credit card details.</p>
 
-        <h2>2. Data Persistence</h2>
-        <p>Your zikr statistics, daily streaks, and settings are stored locally on your device. Deleting the App may result in the loss of this local data.</p>
+        <h2>2. Data Retention and Deletion</h2>
+        <p>Your dhikr counts, streaks, statistics, and preferences are stored exclusively on your device's local storage. We do not maintain any user accounts or remote database profiles.</p>
+        <p><strong>How to Delete Your Data:</strong></p>
+        <ul>
+            <li>You can immediately and permanently delete all your stored data at any time by clearing the App's data in your device settings or by uninstalling the App from your device.</li>
+            <li>To manage or reset advertising identifiers, you can adjust your device settings (on iOS: <em>Settings &gt; Privacy &amp; Security &gt; Tracking</em>; on Android: <em>Settings &gt; Privacy &gt; Ads</em>).</li>
+        </ul>
 
         <h2>3. Children’s Privacy</h2>
-        <p>The App does not knowingly collect personal data from children under the age of 13.</p>
+        <p>The App does not knowingly collect or solicit personal information from children under the age of 13 (or under 16 where required by local law). If you believe a child has provided us with personal information, please contact us immediately and we will take prompt steps to remove such information.</p>
 
-        <h2>4. Contact Us</h2>
-        <p>If you have any questions regarding this Privacy Policy, please contact us at:</p>
-        <p><strong>Email:</strong> <a href="mailto:dionysossp@gmail.com">dionysossp@gmail.com</a></p>
+        <h2>4. Data Security</h2>
+        <p>We take the security of your data seriously. All communications with third-party service providers (such as advertising and payment billing frameworks) are transmitted securely using industry-standard HTTPS encryption.</p>
+
+        <h2>5. Contact Us</h2>
+        <p>If you have any questions or feedback regarding this Privacy Policy or your privacy rights, please contact us at:</p>
+        <p><strong>Developer / Support Email:</strong> <a href="mailto:dionysossp@gmail.com">dionysossp@gmail.com</a></p>
     </section>
 </div>
 
