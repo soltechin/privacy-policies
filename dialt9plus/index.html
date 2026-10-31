@@ -1,137 +1,141 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="tr" data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - DialT9plus</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #24292e;
-            max-width: 820px;
-            margin: 0 auto;
-            padding: 24px;
-            background-color: #f9f9f9;
-        }
-        .container {
-            background: #ffffff;
-            padding: 36px;
-            border-radius: 8px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        }
-        h1 { border-bottom: 2px solid #eaecef; padding-bottom: 10px; color: #1a1a1a; }
-        h2 { border-bottom: 1px solid #eaecef; padding-bottom: 6px; margin-top: 24px; color: #2a2a2a; }
-        h3 { margin-top: 18px; color: #3a3a3a; }
-        hr { border: 0; height: 2px; background: #e1e4e8; margin: 40px 0; }
-        a { color: #0366d6; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        ul { padding-left: 20px; }
-        .lang-switch { margin-bottom: 20px; font-weight: bold; }
-        .badge {
-            display: inline-block;
-            background-color: #e1f5fe;
-            color: #0277bd;
-            padding: 4px 10px;
-            border-radius: 4px;
-            font-size: 13px;
-            font-weight: 600;
-            margin-bottom: 10px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dialpad T9 Plus — Gizlilik Politikası | soltechin</title>
+  <link rel="icon" type="image/png" href="../../assets/img/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../assets/css/style.css?v=5" />
 </head>
 <body>
+  <div class="ambient-glow"></div>
 
-<div class="container">
-    <div class="lang-switch">
-        <a href="#tr">Türkçe</a> | <a href="#en">English</a>
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="../../index.html" class="brand-logo">
+        <img src="../../assets/img/logo-icon.png" alt="soltechin Logo" />
+        <div class="brand-wordmark">
+          <div class="brand-name"><span class="brand-sol">sol</span><span class="brand-tech">tech</span><span class="brand-in">in</span></div>
+          <div class="brand-tagline">MOBILE APPS &amp; GAMES</div>
+        </div>
+      </a>
+      <div class="nav-actions">
+        <a href="../../apps/dialpad-t9-plus/index.html" class="control-btn">← Dialpad T9 Plus</a>
+        <div class="lang-select-wrapper">
+          <select id="langSelect" class="lang-select" aria-label="Dil / Language">
+            <option value="tr">🇹🇷 TR</option>
+            <option value="en">🇬🇧 EN</option>
+          </select>
+          <span class="lang-select-arrow" aria-hidden="true">▾</span>
+        </div>
+        <button class="control-btn" id="themeToggle" aria-label="Açık Temaya Geç" title="Açık Tema">☀️ Açık</button>
+      </div>
     </div>
+  </header>
 
-    <!-- TÜRKÇE BÖLÜM -->
-    <section id="tr">
-        <div class="badge">Google Play Uyumlu Politika Metni</div>
-        <h1>Gizlilik Politikası</h1>
-        <p><strong>Son Güncelleme:</strong> 14 Ekim 2026</p>
+  <div class="subpage-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="../../index.html">soltechin</a> <span>/</span>
+        <a href="../../apps/dialpad-t9-plus/index.html">Dialpad T9 Plus</a> <span>/</span>
+        <strong>Privacy Policy</strong>
+      </div>
+      <div class="section-badge" style="margin-bottom: 10px;">
+        <span class="dot"></span>
+        <span data-lang-block="tr">GİZLİLİK POLİTİKASI BİLDİRİMİ</span>
+        <span data-lang-block="en" style="display: none;">PRIVACY POLICY NOTICE</span>
+      </div>
+      <h1 class="section-title" style="margin-bottom: 6px;">
+        <span data-lang-block="tr">Dialpad T9 Plus — Gizlilik Politikası</span>
+        <span data-lang-block="en" style="display: none;">Dialpad T9 Plus — Privacy Policy</span>
+      </h1>
+      <p style="color: var(--text-secondary);">
+        <span data-lang-block="tr">Son Güncelleme: 14 Ekim 2026</span>
+        <span data-lang-block="en" style="display: none;">Last Updated: October 14, 2026</span>
+      </p>
+    </div>
+  </div>
+
+  <div class="legal-container">
+    <div class="legal-card">
+      <!-- TÜRKÇE BÖLÜM -->
+      <div data-lang-block="tr" id="tr">
         <p><strong>DialT9plus</strong> ("Uygulama") olarak gizliliğinize son derece önem veriyoruz. Bu Gizlilik Politikası, uygulamamızın hangi izinleri kullandığını, kişisel verilerinizin nasıl işlendiğini ve nasıl korunduğunu açıklamaktadır.</p>
 
         <h2>1. Temel İşlevsellik ve Hassas İzinler</h2>
         <p>DialT9plus, gelişmiş bir telefon çevirici (dialer), hızlı T9 arama ve rehber yönetim uygulamasıdır. Bu temel özelliklerin sunulabilmesi için aşağıdaki sistem izinleri talep edilir:</p>
 
-        <h3>a. Arama Kayıtları (READ_CALL_LOG &amp; WRITE_CALL_LOG)</h3>
+        <h3 style="margin-top: 16px; margin-bottom: 6px;">a. Arama Kayıtları (READ_CALL_LOG &amp; WRITE_CALL_LOG)</h3>
         <p>Gelen, giden ve cevapsız çağrılarınızı arama geçmişi ekranında göstermek, kişilere göre gruplamak ve geçmişten doğrudan geri arama başlatabilmeniz için arama kaydı izinleri kullanılır.</p>
-        <p><strong>Önemli:</strong> Çağrı geçmişi verileriniz <strong>%100 yerel olarak cihazınızda işlenir</strong>. Arama kayıtlarınız hiçbir uzak sunucuya aktarılmaz, toplanmaz veya üçüncü taraflarla paylaşılmaz.</p>
+        <p><strong>Önemli:</strong> Çağrı geçmişi verileriniz <strong>yerel olarak cihazınızda işlenir</strong>. Arama kayıtlarınız hiçbir uzak sunucuya aktarılmaz, toplanmaz veya üçüncü taraflarla paylaşılmaz.</p>
 
-        <h3>b. Rehber Erişimi (READ_CONTACTS &amp; WRITE_CONTACTS)</h3>
+        <h3 style="margin-top: 16px; margin-bottom: 6px;">b. Rehber Erişimi (READ_CONTACTS &amp; WRITE_CONTACTS)</h3>
         <p>T9 akıllı tuş takımı ile rehberinizdeki isimleri ve numaraları anında filtrelemek, arayan kişileri rehber bilgileriyle eşleştirmek ve yeni kişi ekleyebilmeniz için rehber izni istenir.</p>
         <p><strong>Önemli:</strong> Rehber verileriniz yalnızca cihazınız üzerinde okunur ve önbelleğe alınır. Kişi listeniz hiçbir şekilde internet üzerinden dışarı aktarılmaz veya satılmaz.</p>
 
-        <h3>c. Telefon Durumu ve Doğrudan Arama (CALL_PHONE &amp; READ_PHONE_STATE)</h3>
+        <h3 style="margin-top: 16px; margin-bottom: 6px;">c. Telefon Durumu ve Doğrudan Arama (CALL_PHONE &amp; READ_PHONE_STATE)</h3>
         <p>Tuş takımından doğrudan telefon araması başlatmak, Çift SIM (Dual SIM) kart tercihlerini yönetmek ve çağrı bağlandığında veya sonlandığında dokunsal geri bildirim (titreşim) sağlamak amacıyla kullanılır.</p>
 
         <h2>2. Veri Güvenliği ve Yerel Yedekleme</h2>
         <ul>
-            <li><strong>Sıfır Sunucu İletişimi:</strong> Uygulamamızın kişisel verilerinizi topladığı veya sakladığı bir arka plan sunucusu (backend) bulunmamaktadır. Tüm ayarlarınız, engellenen numaralarınız ve arama geçmişiniz cihazınızın yerel SQLite/Room veritabanında saklanır.</li>
-            <li><strong>Şifreli Yerel Yedekleme:</strong> Yedekleme işlemi tamamen cihaz içinde gerçekleşir. Veriler AES algoritması ile şifrelenir ve dosya yalnızca kullanıcının kontrolünde cihazda tutulur.</li>
+          <li><strong>Sıfır Sunucu İletişimi:</strong> Uygulamamızın kişisel verilerinizi topladığı veya sakladığı bir arka plan sunucusu (backend) bulunmamaktadır. Tüm ayarlarınız, engellenen numaralarınız ve arama geçmişiniz cihazınızın yerel SQLite/Room veritabanında saklanır.</li>
+          <li><strong>Şifreli Yerel Yedekleme:</strong> Yedekleme işlemi tamamen cihaz içinde gerçekleşir. Veriler AES algoritması ile şifrelenir ve dosya yalnızca kullanıcının kontrolünde cihazda tutulur.</li>
         </ul>
 
         <h2>3. Üçüncü Taraf Hizmetleri ve Reklamlar</h2>
-        <h3>a. Google AdMob</h3>
+        <h3 style="margin-top: 16px; margin-bottom: 6px;">a. Google AdMob</h3>
         <p>Uygulamada geliştirme maliyetlerini karşılamak ve ücretsiz deneyim sunmak amacıyla Google AdMob reklamları yer alabilir. Google AdMob, kişiselleştirilmiş veya kişiselleştirilmemiş reklamlar sunabilmek için cihaz reklam kimliği (Google Advertising ID) gibi sınırlı teknik verileri toplayabilir.</p>
         <ul>
-            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Gizlilik ve Şartlar</a></li>
+          <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" style="color: var(--brand-cyan);">Google Gizlilik ve Şartlar</a></li>
         </ul>
 
-        <h3>b. Google Play İçi Satın Alma (Google Play Billing)</h3>
+        <h3 style="margin-top: 16px; margin-bottom: 6px;">b. Google Play İçi Satın Alma (Google Play Billing)</h3>
         <p>Geliştiriciye destek olmak amacıyla sunulan isteğe bağlı uygulama içi bağışlar ve satın alımlar tamamen Google Play Store altyapısı üzerinden işlenir. Kredi kartı ve ödeme bilgileriniz doğrudan Google tarafından korunur; tarafımızca bu bilgilere erişilemez veya saklanamaz.</p>
 
         <h2>4. Çocukların Gizliliği</h2>
         <p>Uygulamamız 13 yaşın altındaki çocuklara yönelik değildir ve çocuklardan bilerek herhangi bir kişisel veri toplamamaktadır.</p>
 
         <h2>5. Verilerin Silinmesi</h2>
-        <p>Tüm veriler yerel olarak cihazınızda barındırıldığından, Android Ayarları > Uygulamalar > DialT9plus > Depolama > "Verileri Temizle" seçeneğini kullanarak veya uygulamayı telefonunuzdan kaldırarak tüm yerel verileri anında ve kalıcı olarak silebilirsiniz.</p>
+        <p>Tüm veriler yerel olarak cihazınızda barındırıldığından, Android Ayarları &gt; Uygulamalar &gt; DialT9plus &gt; Depolama &gt; "Verileri Temizle" seçeneğini kullanarak veya uygulamayı telefonunuzdan kaldırarak tüm yerel verileri anında ve kalıcı olarak silebilirsiniz.</p>
 
         <h2>6. İletişim</h2>
         <p>Gizlilik politikamız ile ilgili her türlü soru, öneri veya geri bildiriminiz için bizimle iletişime geçebilirsiniz:</p>
-        <p><strong>E-posta:</strong> <a href="mailto:dionysossp@gmail.com">dionysossp@gmail.com</a></p>
-    </section>
+        <p><strong>E-posta:</strong> <a href="mailto:soltechinapps@gmail.com" style="color: var(--brand-cyan);">soltechinapps@gmail.com</a></p>
+      </div>
 
-    <hr>
-
-    <!-- ENGLISH SECTION -->
-    <section id="en">
-        <div class="badge">Google Play Compliant Policy Document</div>
-        <h1>Privacy Policy</h1>
-        <p><strong>Last Updated:</strong> October 14, 2026</p>
+      <!-- ENGLISH SECTION -->
+      <div data-lang-block="en" id="en" style="display: none;">
         <p><strong>DialT9plus</strong> ("the App", "we", "us") values your privacy. This Privacy Policy describes how we handle sensitive device permissions, user data, and privacy protection.</p>
 
         <h2>1. Core Functionality &amp; Sensitive Permissions</h2>
         <p>DialT9plus is a comprehensive phone dialer, T9 smart contact search, and call management application. To deliver its core features, the following system permissions are requested:</p>
 
-        <h3>a. Call Logs (READ_CALL_LOG &amp; WRITE_CALL_LOG)</h3>
+        <h3 style="margin-top: 16px; margin-bottom: 6px;">a. Call Logs (READ_CALL_LOG &amp; WRITE_CALL_LOG)</h3>
         <p>Required to display incoming, outgoing, and missed call history directly within the dialer, organize call logs by contact, and enable one-tap callbacks.</p>
-        <p><strong>Important:</strong> All call history data is <strong>processed 100% locally on your device</strong>. Your call records are never uploaded, collected, or shared with external servers or third parties.</p>
+        <p><strong>Important:</strong> All call history data is <strong>processed locally on your device</strong>. Your call records are never uploaded, collected, or shared with external servers or third parties.</p>
 
-        <h3>b. Contacts Access (READ_CONTACTS &amp; WRITE_CONTACTS)</h3>
+        <h3 style="margin-top: 16px; margin-bottom: 6px;">b. Contacts Access (READ_CONTACTS &amp; WRITE_CONTACTS)</h3>
         <p>Required to provide instant T9 keypad search, match phone numbers with saved names, and allow adding or modifying contacts upon user instruction.</p>
         <p><strong>Important:</strong> Contact information is read and cached strictly on your local device. Your contact list is never transmitted over the internet or sold.</p>
 
-        <h3>c. Phone State &amp; Direct Calling (CALL_PHONE &amp; READ_PHONE_STATE)</h3>
+        <h3 style="margin-top: 16px; margin-bottom: 6px;">c. Phone State &amp; Direct Calling (CALL_PHONE &amp; READ_PHONE_STATE)</h3>
         <p>Used to place direct phone calls from the dialpad, manage Dual SIM preferences, and detect call connection/disconnection events for haptic feedback.</p>
 
         <h2>2. Data Security &amp; Local Storage</h2>
         <ul>
-            <li><strong>Zero Server Transmission:</strong> We do not operate external backend servers to collect or store your personal information. Your configuration, blocklist, and history reside entirely in your device's local encrypted/Room database.</li>
-            <li><strong>Encrypted Local Backup:</strong> Backups are created on-device using AES encryption. Backup strings or files remain exclusively under your control.</li>
+          <li><strong>Zero Server Transmission:</strong> We do not operate external backend servers to collect or store your personal information. Your configuration, blocklist, and history reside entirely in your device's local encrypted/Room database.</li>
+          <li><strong>Encrypted Local Backup:</strong> Backups are created on-device using AES encryption. Backup strings or files remain exclusively under your control.</li>
         </ul>
 
         <h2>3. Third-Party Services &amp; Advertising</h2>
-        <h3>a. Google AdMob</h3>
+        <h3 style="margin-top: 16px; margin-bottom: 6px;">a. Google AdMob</h3>
         <p>The App may display advertisements served by Google AdMob. Google AdMob may use device identifiers (such as the Google Advertising ID) to deliver personalized or non-personalized advertisements in compliance with Google's policies.</p>
         <ul>
-            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+          <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" style="color: var(--brand-cyan);">Google Privacy Policy</a></li>
         </ul>
 
-        <h3>b. Google Play In-App Billing</h3>
+        <h3 style="margin-top: 16px; margin-bottom: 6px;">b. Google Play In-App Billing</h3>
         <p>Optional developer tip/support transactions are handled securely by Google Play Billing. We never collect, access, or store your credit card or financial information.</p>
 
         <h2>4. Children's Privacy</h2>
@@ -142,9 +146,11 @@
 
         <h2>6. Contact Us</h2>
         <p>If you have any questions or concerns regarding this Privacy Policy, please reach out to us at:</p>
-        <p><strong>Email:</strong> <a href="mailto:dionysossp@gmail.com">dionysossp@gmail.com</a></p>
-    </section>
-</div>
+        <p><strong>Email:</strong> <a href="mailto:soltechinapps@gmail.com" style="color: var(--brand-cyan);">soltechinapps@gmail.com</a></p>
+      </div>
+    </div>
+  </div>
 
+  <script src="../../assets/js/main.js?v=5"></script>
 </body>
 </html>
